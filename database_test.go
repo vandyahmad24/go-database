@@ -11,7 +11,8 @@ func TestOpenConnection(t *testing.T) {
 	if err != nil{
 		panic(err)
 	}
-//	gunakna dbnya
+//	konfigurasi database pooling
+
 
 //	close
 	defer db.Close()
